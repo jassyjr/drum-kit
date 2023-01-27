@@ -32,7 +32,7 @@ for ( var i=0; i<numberOfButtons; i++) {
                    var crash= new Audio("sounds/crash.mp3");
                     crash.play();
                     break;
-                default:console.log(innerButtonHTML)
+                default
                     
             }
              
