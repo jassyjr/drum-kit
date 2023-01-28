@@ -32,7 +32,7 @@ for ( var i=0; i<numberOfButtons; i++) {
                    var crash= new Audio("sounds/crash.mp3");
                     crash.play();
                     break;
-                default
+                default:console.log(invalid button)
                     
             }
              
@@ -74,7 +74,7 @@ function makeSound(key) {
                    var crash= new Audio("sounds/crash.mp3");
                     crash.play();
                     break;
-                default:
+                default:console.log(invalid keypress);
                     
             }
              
